@@ -1,0 +1,2 @@
+# Intelligent-Video-Surveillance
+The intelligent surveillance of footages will be performed via a spatio temporal autoencoder. This will be based on a 3D convolution network. The encoder part extracts the spatial and temporal information, and then the decoder reconstructs the frames. The abnormal events are identified by computing the reconstruction loss using Euclidean distance between original and reconstructed batch.
